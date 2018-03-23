@@ -221,15 +221,23 @@ v3.0 |
 
 博客页面
 > ![blog](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/blogs.png)
+> ![p0](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/2018-03-23%2019-04-47%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+后台页面
+> ![p](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/2018-03-23%2019-08-15%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 
 
 ## 5. 系统功能描述验收标准
 ### 5.1 对功能的规定
-首页功能 
-测试功能 | 测试项 | 输入/操作 | 检验点 | 测试功能 | 完成情况
-首页功能	静态功能	
-	
+> ![p1](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/n1.png)
+
+> ![p2](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/n2.png)
+
+> ![p3](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/n3.png)
+> ![p4](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/n4.png)
+> ![p5](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/n5.png)
+> ![p6](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/n6.png)
+
 	
 
 	
