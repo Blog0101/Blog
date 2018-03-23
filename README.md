@@ -209,6 +209,21 @@ v3.0 |
     3. 时间限定：假定项目的截止时间不会提前。
     4. 需求限定：假定项目需求基本确定之后不会有太大改变。
 ## 4. 界面原型设计
+
+首页
+> ![首页](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/index.jpg)
+
+登录页面
+> ![登录](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/login.png)
+
+个人页面
+> ![user](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/profile.png)
+
+博客页面
+> ![blog](https://github.com/Blog0101/Blog/blob/Mahsin5227-temp/Documents/pictures/blogs.png)
+
+
+
 ## 5. 系统功能描述验收标准
 ### 5.1 对功能的规定
 首页功能 
