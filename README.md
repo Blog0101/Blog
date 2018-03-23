@@ -10,3 +10,18 @@
 2. 进度安排、人员分工及占工作量比例情况
 
 ### 甘特图
+
+> ![甘特图](https://github.com/Blog0101/Blog/blob/master/Documents/pictures/gante1.png)
+> ![甘特图](https://github.com/Blog0101/Blog/blob/master/Documents/pictures/gante2.png)
+
+
+主要分工
+Alpha版本：
+1. 原型设计：马新、黄正达
+2. 文档编写：林立鹏、商琳梓
+3. 前端设计与实现：林立鹏、商琳梓
+4. 后台设计与实现：马新、黄正达
+
+Beta版本：
+1. ToDoList：马新、林立鹏、商琳梓
+2. 消息：黄正达、林立鹏、商琳梓
