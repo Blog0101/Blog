@@ -1,0 +1,1 @@
+insert into tbl_member (name,email,password) values ('Alex','973584776@qq.com','Alex');
