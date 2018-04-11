@@ -31,6 +31,7 @@
         <result column="fans" jdbcType="INTEGER" property="fans" />
     </resultMap>
 
+
     <!-- 会员登录 -->
     <select id="login" parameterType="Member" resultMap="MemberResult">
         select
@@ -39,14 +40,53 @@
         where (name = #{name} or email = #{name}) and password = #{password}
     </select>
 
+    <!-- 管理员登录 -->
+    <select id="manageLogin" parameterType="Member" resultMap="MemberResult">
+        select
+        id,group_id,name,email,phone,sex,avatar,is_admin,is_active
+        from tbl_member
+        where (name = #{name} or email = #{name}) and password = #{password} and is_admin > 0
+    </select>
     <!-- 根据ID查找 -->
     <select id="findById" parameterType="java.lang.Integer" resultMap="MemberResult">
         select * from tbl_member where id = #{id}
+    </select>
+
+    <!-- 根据昵称查找 -->
+    <select id="findByName" resultMap="MemberResult">
+        select * from tbl_member where name = #{name}
     </select>
 
     <!-- 登录成功后修改相关信息 -->
     <update id="loginSuccess">
         update tbl_member set last_login_time=curr_login_time,curr_login_time=now() where id = #{id}
     </update>
+
+    <!-- 根据邮箱查找 -->
+    <select id="findByEmail"  resultMap="MemberResult">
+        select * from tbl_member where email = #{email}
+    </select>
+
+    <!-- 根据昵称和邮箱查找 -->
+    <select id="findByNameAndEmail" resultMap="MemberResult">
+        select * from tbl_member where name = #{name} and email = #{email}
+    </select>
+
+    <update id="changepwd">
+        update tbl_member set password=#{password} WHERE id=#{id}
+    </update>
+
+    <!-- 注册 -->
+    <insert id="register" parameterType="Member" keyProperty="id" useGeneratedKeys="true">
+        insert into tbl_member (name, email, password,create_time,curr_login_time)
+        values (#{name}, #{email}, #{password}, now(),now())
+    </insert>
+
+    <!-- 删除账户 -->
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete from tbl_member where id = #{id}
+    </delete>
+
+
 
 </mapper>

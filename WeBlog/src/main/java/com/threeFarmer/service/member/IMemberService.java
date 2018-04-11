@@ -16,4 +16,20 @@ public interface IMemberService {
     ResponseModel login(Member member, HttpServletRequest request);
 
     Member findById(int id);
+
+    ResponseModel register(Member member, HttpServletRequest request);
+    Member findByName(String name);
+    Member findByNameAndEmail(String name, String email);
+    Member manageLogin(Member member, HttpServletRequest request);
+    ResponseModel update(Member member);
+
+    ResponseModel delete(int id);
+
+
+    ResponseModel forgetpwd(String name, String email, HttpServletRequest request);
+
+    ResponseModel resetpwd(String email, String token, String password, HttpServletRequest request);
+
+
+
 }
